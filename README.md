@@ -25,3 +25,13 @@ In both types of calls you need to set the `Authorization` and `AppName` headers
 For `GET` calls by adding a query string to the url.
 
 For `POST` calls send body parameters as JSON (using `json_decode`).
+
+Running the Sample
+==================
+
+The sample obtains the authorization token, and then makes one GET call and one POST call.
+
+You can run the sample from the command line using:
+
+    php api_calls.php
+	
