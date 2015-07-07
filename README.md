@@ -6,7 +6,7 @@ Using Backand REST API is a two step process:
 1. Obtain the authorization token
 2. Make GET/POST calls
 
-In the sample PHP application we use `curl`.
+In the sample PHP application, `api_calls.php`, we use `curl`.
 
 Obtaining the Authorization Token
 =================================
@@ -35,3 +35,18 @@ You can run the sample from the command line using:
 
     php api_calls.php
 	
+Using HTTPClient
+================
+
+The file `httpful.php`, gives Httpful example calls, that follow the pattern of the `curl` calls.
+
+To use it, install [Httpful](http://phphttpclient.com) using [Composer](https://getcomposer.org). 
+We have included a `composer.json` file, so you have execute from the command line in the project folder, 
+
+    php composer.phar install
+    
+Then include `bootstrap.php` as can be seen in the file.
+
+You can run the sample from the command line using:
+
+    php httpful.php
