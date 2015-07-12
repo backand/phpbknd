@@ -38,7 +38,7 @@ $access_token = $server_output_json->access_token;
 $token_type = $server_output_json->token_type;
 
 
-// get all first page of rows in items table
+// get first page of rows in items table
 $ch = curl_init();
 curl_setopt($ch, CURLOPT_URL, REST_URL . '/1/objects/items?pageSize=20&pageNumber=1');
 curl_setopt($ch, CURLOPT_POST, false);

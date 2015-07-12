@@ -30,7 +30,7 @@ $response = \Httpful\Request::post(TOKEN_URL)
 $access_token = $response->body->access_token;
 $token_type = $response->body->token_type;
 
-// get all first page of rows in items table
+// get first page of rows in items table
 $response = \Httpful\Request::get(REST_URL . '/1/objects/items?pageSize=20&pageNumber=1')
 	->addHeader('Accept', 'application/json')
 	->addHeader('Content-Type','application/json')

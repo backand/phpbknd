@@ -24,7 +24,7 @@ In both types of calls you need to set the `Authorization` and `AppName` headers
 
 For `GET` calls by adding a query string to the url.
 
-For `POST` calls send body parameters as JSON (using `json_decode`).
+For `POST` calls send body parameters as JSON (using `json_encode`).
 
 Running the Sample
 ==================
@@ -35,8 +35,8 @@ You can run the sample from the command line using:
 
     php api_calls.php
 	
-Using HTTPClient
-================
+Using Httpful
+=============
 
 The file `httpful.php`, gives Httpful example calls, that follow the pattern of the `curl` calls.
 
