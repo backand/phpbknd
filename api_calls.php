@@ -1,8 +1,8 @@
 <?php 
 
-define('API_URL', 'https://api.backand.com:8080');
+define('API_URL', 'https://api.backand.com');
 define('TOKEN_URL', API_URL . '/token');
-define('REST_URL', 'https://api.backand.com:8078');
+define('REST_URL', 'https://api.backand.com');
 define('TABLE_URL', API_URL . '/1/table/config/');
 define('COLUMNS_URL', API_URL . '/1/table/config/');
 
